@@ -1,5 +1,11 @@
 # HospitalManagementsystem
-Created By- Rahul sahu, Swarna, Mohan
+Created By- Rahul sahu, Swarna, Mohan(Scholars of Batch HCL GIC_JAS21_FS_JAVA_2).
+OS: Windows 10.
+Technology used:
+Framework:Spring Boot,
+Server:Jsp,
+DataBase: Oracle
+Frontend: HTML,CSS.
 
 Step 1 :  Download project from github by using link 
 "https://github.com/rahul3899/HospitalManagementsyste"
