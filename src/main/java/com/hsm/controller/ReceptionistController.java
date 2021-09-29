@@ -7,16 +7,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-
-import com.hsm.model.Receptionist;
-import com.hsm.repository.ReceptionistRepository;
+import com.hsm.entity.Receptionist;
+import com.hsm.service.ReceptionService;
 @Controller
 public class ReceptionistController {
 	
 	
 	
 	@Autowired
-	ReceptionistRepository receptionistRepository;
+	ReceptionService receptionistRepository;
 	
 	@RequestMapping("receptionL")
 	String reception() {
@@ -30,13 +29,11 @@ public class ReceptionistController {
 
 	@RequestMapping(value="loginReception",method=RequestMethod.POST)
 	ModelAndView login(@RequestParam("id") String id, @RequestParam("password") String password) {
-		//remember you have to make to some changes 
-		//like if ad is null think harder and you will remember
+		
 		Receptionist login=receptionistRepository.getById(id);
 		
 		ModelAndView view=null; 
-		//Doctor ad=doctor.getById(login.getDoctorId());
-	
+		
 		if(login.getPassword().equals(password)) { 
 			view= new ModelAndView(); 
 			view.setViewName("Reception");
