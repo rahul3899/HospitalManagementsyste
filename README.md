@@ -1,5 +1,10 @@
 # HospitalManagementsystem
-Created By- Rahul sahu, Swarna, Mohan(Scholars of Batch HCL GIC_JAS21_FS_JAVA_2).
+Created By- Rahul sahu, Swarna, Mohan(Scholars of Batch HCL GIC_JAS21_FS_JAVA_2).  
+
+
+  Project Title : Hospital Management System.
+  
+  
 OS: Windows 10.
 
 Technology used:
