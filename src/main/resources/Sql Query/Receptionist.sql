@@ -1,14 +1,12 @@
---------------------------------------------------------
---  File created - Wednesday-September-29-2021   
---------------------------------------------------------
---------------------------------------------------------
---  DDL for Table RECEPTIONIST
---------------------------------------------------------
-
-  CREATE TABLE receptionist
-   (	"ID" VARCHAR2(255 CHAR), 
-	"ADDRESS" VARCHAR2(255 CHAR), 
-	"NAME" VARCHAR2(255 CHAR), 
-	"PASSWORD" VARCHAR2(255 CHAR), 
-	"PHONE_NUMBER" VARCHAR2(255 CHAR)
+CREATE TABLE receptionist
+   (	"id" VARCHAR2(255), 
+	"address" VARCHAR2(255), 
+	"name" VARCHAR2(255), 
+	"password" VARCHAR2(255), 
+	"phoneNumber" VARCHAR2(255),
+  PRIMARY KEY(id)
    );
+
+
+
+   INSERT INTO receptionist (id, address, name, password,phoneNumber) VALUES ('123', 'jabalpur', 'rahul', '12345','858887');
