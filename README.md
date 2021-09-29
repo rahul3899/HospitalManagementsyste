@@ -13,7 +13,7 @@ Step4:  Run the project by right click on Application.java file.(Using port no 8
 
 Step5: IF it successfully run then got to your browser and type http://localhost:8096/home 
 
-Step6:Now I have already attached the sql files you can find under Src/main/resources please first run that in your database. 
+Step6:Now I have already attached the sql files you can find under Src/main/resources/sqlQuery please first run that in your database. 
 
 Step7: Here there are so many options you can login as a doctor ID: 123, Password: 12345. 
      Or You can login as a admin ID: 123, Password: 12345.
